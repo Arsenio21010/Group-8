@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <style>
+        body {
+            margin: 0;
+            background-image: url('https://i.ibb.co/LdB5SQkY/Timobee-fotor-20250225202936.jpg'); 
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            background-position: center;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Navbar */
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #fce97d;
+            padding: 15px 40px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+            width: calc(100% - 80px);
+            margin: 0 auto;
+        }
+
+        .logo-container {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .logo img {
+            height: 110px;
+        }
+
+        .program-title {
+            font-size: 30px;
+            font-weight: bold;
+        }
+
+        .nav-links {
+            list-style: none;
+            display: flex;
+            gap: 25px;
+            margin: 0;
+            padding: 0;
+        }
+
+        .nav-links li {
+            display: inline;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        .nav-links a:hover {
+            color: #664d00;
+        }
+
+        .contact-section, .get-involved-section {
+            background: rgba(255, 255, 255, 0.9);
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+            width: 60%;
+            margin: 20px auto;
+        }
+
+        .donation-form input {
+            padding: 10px;
+            margin: 10px 0;
+            width: 80%;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .donation-form button {
+            padding: 10px 20px;
+            background-color: #ffd700;
+            border: none;
+            border-radius: 5px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        .donation-form button:hover {
+            background-color: #ffcc00;
+        }
+
+        .footer {
+            background-color: #fce97d;
+            text-align: center;
+            padding: 20px;
+            font-weight: bold;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo-container">
+                <div class="logo">
+                    <img src="https://i.ibb.co/ccTS7t30/logo.jpg" alt="Logo">
+                </div>
+                <span class="program-title">Outreach Program</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="Project.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="contact-section">
+        <h1>Contact Us</h1>
+        <p>If you have any questions, suggestions, or would like to get involved, feel free to reach out to us:</p>
+        <p>Email: <a href="Example@gmail.com">Example@gmail.com</a></p>
+        <p>Phone: (123) 456-7890</p>
+        <p>Address: #112 Ipil Street, Marikina Heights, Marikina City, Metro Manila</p>
+    </section>
+
+    <section class="get-involved-section">
+        <h1>Get Involved</h1>
+        <p>Your support makes a difference! You can help us in many ways:</p>
+        <p><strong>Donate:</strong> Financial contributions to help fund our initiatives.</p>
+        <p><strong>Volunteer:</strong> Join our team to actively participate in events.</p>
+        <p><strong>Spread Awareness:</strong> Share our mission and goals with others.</p>
+        <p>To donate, please fill out the form below:</p>
+        <form class="donation-form">
+            <input type="number" placeholder="Enter donation amount" required>
+            <button type="submit">Donate Now</button>
+        </form>
+    </section>
+
+    <footer class="footer">
+        © 2024 Community Outreach 9 - St.Timothy. All rights reserved.
+    </footer>
+</body>
+</html>
